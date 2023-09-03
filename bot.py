@@ -1,7 +1,7 @@
 import discord
 import responses
 
-TOKEN = "MTE0NTY0Mjc4NTczMTUxMDM3Mg.GELUF4.XuvqI-mdqPzk4RGpP1fqHWRtYnZCeX6LEE32bE"
+TOKEN = "Get your own token!"
 
 async def send_message(message, user_message, is_private):
     try:
@@ -13,7 +13,7 @@ async def send_message(message, user_message, is_private):
 
 
 def run_discord_bot():
-    TOKEN = 'MTE0NTY0Mjc4NTczMTUxMDM3Mg.GELUF4.XuvqI-mdqPzk4RGpP1fqHWRtYnZCeX6LEE32bE'
+    TOKEN = 'Get your own Token!'
     intents = discord.Intents.default()
     intents.message_content = True
     client = discord.Client(intents=intents)
